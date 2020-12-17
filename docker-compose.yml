@@ -3,7 +3,7 @@ services:
     quakejs:
         container_name: quakejs
         environment:
-            - SERVER=3.235.191.214
+            - SERVER=quake.silvercrow.org
             - HTTP_PORT=80
         ports:
             - '80:80'
