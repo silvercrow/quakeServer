@@ -3,7 +3,7 @@ services:
     quakejs:
         container_name: quakejs
         environment:
-            - SERVER=54.152.238.243
+            - SERVER=3.238.250.140
             - HTTP_PORT=80
         ports:
             - '80:80'
